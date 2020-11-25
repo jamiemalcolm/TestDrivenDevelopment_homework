@@ -10,3 +10,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare_5_10_returns_5_is_less_than_10(self):
         self.assertEqual("5 is less than 10", compare(5, 10))
+
+    def test_compare_6_6_returns_both_are_same(self):
+        self.assertEqual("both the numbers are the same!", compare(6, 6))
